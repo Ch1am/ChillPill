@@ -1,0 +1,30 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+}
+
+model Negotiation {
+  id          String    @id @default(cuid())
+  unitId      String
+  status      String    // pending, approved, countered, denied, accepted
+  rounds      Int       @default(0)
+  createdAt   DateTime  @default(now())
+  updatedAt   DateTime  @updatedAt
+  messages    Message[]
+}
+
+model Message {
+  id            String      @id @default(cuid())
+  negotiationId String
+  negotiation   Negotiation @relation(fields: [negotiationId], references: [id])
+  role          String      // resident_agent, block_agent
+  content       String
+  proposal      String?     // JSON of the cooling proposal
+  createdAt     DateTime    @default(now())
+}

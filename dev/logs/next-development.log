@@ -1,0 +1,1536 @@
+[00:00:00.823] Server  LOG     ✓ Ready in 581ms
+[00:00:05.313] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:05.425] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <InnerScrollAndFocusHandler segmentPath={[...]} focusAndScrollRef={{apply:false, ...}}>
+      <ErrorBoundary errorComponent={undefined} errorStyles={undefined} errorScripts={undefined}>
+        <LoadingBoundary name="/" loading={null}>
+          <HTTPAccessFallbackBoundary notFound={<SegmentViewNode>} forbidden={undefined} unauthorized={undefined}>
+            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<SegmentViewNode>} forbidden={undefined} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <InnerLayoutRouter url="/" tree={[...]} params={{}} cacheNode={{rsc:<Fragment>, ...}} ...>
+                    <SegmentViewNode type="page" pagePath="page.tsx">
+                      <SegmentTrieNode>
+                      <ClientPageRoot Component={function SplashScreen} serverProvidedParams={{...}}>
+                        <SplashScreen params={Promise} searchParams={Promise}>
+                          <div className="page-modul...">
+                            <div className="page-modul...">
+                              <div
+                                className="page-module___8aEwW__particle"
+                                style={{
++                                 left: "73.64208810309943%"
+-                                 left: "9.04488%"
++                                 animationDelay: "0.5426280636097819s"
++                                 animationDuration: "5.943640169683652s"
+-                                 animation-delay: "3.91652s"
+-                                 animation-duration: "14.2726s"
+                                }}
+                              >
+                              <div
+                                className="page-module___8aEwW__particle"
+                                style={{
++                                 left: "75.80250212586512%"
+-                                 left: "36.1405%"
++                                 animationDelay: "4.822167262324283s"
++                                 animationDuration: "13.677908083470973s"
+-                                 animation-delay: "1.90467s"
+-                                 animation-duration: "6.93041s"
+                                }}
+                              >
+                              <div
+                                className="page-module___8aEwW__particle"
+                                style={{
++                                 left: "88.380083931091%"
+-                                 left: "15.4324%"
++                                 animationDelay: "0.944880871174274s"
++                                 animationDuration: "8.372235914946174s"
+-                                 animation-delay: "4.11312s"
+-                                 animation-duration: "11.6457s"
+                                }}
+                              >
+                              <div
+                                className="page-module___8aEwW__particle"
+                                style={{
++                                 left: "99.24810641241008%"
+-                                 left: "25.2698%"
++                                 animationDelay: "3.2079828075852475s"
++                                 animationDuration: "13.915401390245663s"
+-                                 animation-delay: "1.72444s"
+-                                 animation-duration: "11.3527s"
+                                }}
+                              >
+                              <div
+                                className="page-module___8aEwW__particle"
+                                style={{
++                                 left: "18.180208586069213%"
+-                                 left: "73.0102%"
++                                 animationDelay: "3.911381370728966s"
++                                 animationDuration: "9.858668570675542s"
+-                                 animation-delay: "1.96718s"
+-                                 animation-duration: "12.0566s"
+                                }}
+                              >
+                              <div
+                                className="page-module___8aEwW__particle"
+                                style={{
++                                 left: "52.362825823068235%"
+-                                 left: "31.0269%"
++                                 animationDelay: "4.642678554753147s"
++                                 animationDuration: "14.603220962155387s"
+-                                 animation-delay: "0.911718s"
+-                                 animation-duration: "12.8208s"
+                                }}
+                              >
+                              <div
+                                className="page-module___8aEwW__particle"
+                                style={{
++                                 left: "66.25589961155674%"
+-                                 left: "34.5026%"
++                                 animationDelay: "2.261812201513324s"
++                                 animationDuration: "12.026252045982549s"
+-                                 animation-delay: "1.1755s"
+-                                 animation-duration: "6.85548s"
+                                }}
+                              >
+                              <div
+                                className="page-module___8aEwW__particle"
+                                style={{
++                                 left: "10.377906006780158%"
+-                                 left: "32.1581%"
++                                 animationDelay: "2.0165281334004828s"
++                                 animationDuration: "13.362288082669501s"
+-                                 animation-delay: "2.67559s"
+-                                 animation-duration: "10.646s"
+                                }}
+                              >
+                              <div
+                                className="page-module___8aEwW__particle"
+                                style={{
++                                 left: "0.8689725344503407%"
+-                                 left: "93.6505%"
++                                 animationDelay: "4.155616166376538s"
++                                 animationDuration: "7.309976731771851s"
+-                                 animation-delay: "3.05849s"
+-                                 animation-duration: "13.6852s"
+                                }}
+                              >
+                              <div
+                                className="page-module___8aEwW__particle"
+                                style={{
++                                 left: "46.77621835615119%"
+-                                 left: "29.0677%"
++                                 animationDelay: "1.6295743732452377s"
++                                 animationDuration: "11.271519085230358s"
+-                                 animation-delay: "0.967821s"
+-                                 animation-duration: "10.811s"
+                                }}
+                              >
+                              <div
+                                className="page-module___8aEwW__particle"
+                                style={{
++                                 left: "25.329347849311667%"
+-                                 left: "65.6764%"
++                                 animationDelay: "0.9565501302410673s"
++                                 animationDuration: "12.452287445359023s"
+-                                 animation-delay: "4.07594s"
+-                                 animation-duration: "8.0653s"
+                                }}
+                              >
+                              <div
+                                className="page-module___8aEwW__particle"
+                                style={{
++                                 left: "15.422936215539352%"
+-                                 left: "27.204%"
++                                 animationDelay: "1.0679719948035165s"
++                                 animationDuration: "8.947730608531117s"
+-                                 animation-delay: "4.18173s"
+-                                 animation-duration: "7.55562s"
+                                }}
+                              >
+                              <div
+                                className="page-module___8aEwW__particle"
+                                style={{
++                                 left: "51.86935474211496%"
+-                                 left: "28.2111%"
++                                 animationDelay: "4.708659688075501s"
++                                 animationDuration: "12.60614003716698s"
+-                                 animation-delay: "0.162618s"
+-                                 animation-duration: "6.8908s"
+                                }}
+                              >
+                              <div
+                                className="page-module___8aEwW__particle"
+                                style={{
++                                 left: "93.59595609018007%"
+-                                 left: "19.732%"
++                                 animationDelay: "1.7521509262706503s"
++                                 animationDuration: "14.95501194599802s"
+-                                 animation-delay: "3.45728s"
+-                                 animation-duration: "7.84971s"
+                                }}
+                              >
+                              <div
+                                className="page-module___8aEwW__particle"
+                                style={{
++                                 left: "97.45572051327208%"
+-                                 left: "31.3393%"
++                                 animationDelay: "1.3149668391834723s"
++                                 animationDuration: "14.931363184322189s"
+-                                 animation-delay: "3.40463s"
+-                                 animation-duration: "7.9349s"
+                                }}
+                              >
+                              <div
+                                className="page-module___8aEwW__particle"
+                                style={{
++                                 left: "49.61245965386997%"
+-                                 left: "96.4343%"
++                                 animationDelay: "4.482868548308875s"
++                                 animationDuration: "14.101663173773517s"
+-                                 animation-delay: "1.92939s"
+-                                 animation-duration: "9.93379s"
+                                }}
+                              >
+                              <div
+                                className="page-module___8aEwW__particle"
+                                style={{
++                                 left: "70.08704840723905%"
+-                                 left: "53.9715%"
++                                 animationDelay: "1.7827546623660773s"
++                                 animationDuration: "10.12328674575426s"
+-                                 animation-delay: "2.3138s"
+-                                 animation-duration: "13.5891s"
+                                }}
+                              >
+                              <div
+                                className="page-module___8aEwW__particle"
+                                style={{
++                                 left: "14.216232114591232%"
+-                                 left: "23.8165%"
++                                 animationDelay: "2.5365049546001748s"
++                                 animationDuration: "8.711988901422156s"
+-                                 animation-delay: "0.109329s"
+-                                 animation-duration: "14.33s"
+                                }}
+                              >
+                              <div
+                                className="page-module___8aEwW__particle"
+                                style={{
++                                 left: "76.5747082799798%"
+-                                 left: "37.1469%"
++                                 animationDelay: "1.6994624120491126s"
++                                 animationDuration: "11.281581166067578s"
+-                                 animation-delay: "0.867309s"
+-                                 animation-duration: "9.52789s"
+                                }}
+                              >
+                              <div
+                                className="page-module___8aEwW__particle"
+                                style={{
++                                 left: "61.02065350783966%"
+-                                 left: "53.167%"
++                                 animationDelay: "3.082819360276746s"
++                                 animationDuration: "8.646563723364265s"
+-                                 animation-delay: "2.1796s"
+-                                 animation-duration: "7.84111s"
+                                }}
+                              >
+                            ...
+                    ...
+                  ...
+      ...
+
+[00:00:35.841] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:40.008] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:40.116] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <LoadingBoundary name="hdb/" loading={null}>
+      <HTTPAccessFallbackBoundary notFound={undefined} forbidden={undefined} unauthorized={undefined}>
+        <RedirectBoundary>
+          <RedirectErrorBoundary router={{...}}>
+            <InnerLayoutRouter url="/dashboard..." tree={[...]} params={{}} cacheNode={{rsc:<Fragment>, ...}} ...>
+              <SegmentViewNode type="page" pagePath="dashboard/...">
+                <SegmentTrieNode>
+                <ClientPageRoot Component={function HDBDashboard} serverProvidedParams={{...}}>
+                  <HDBDashboard params={Promise} searchParams={Promise}>
+                    <div className="hdb-module...">
+                      <div>
+                      <header>
+                      <nav>
+                      <main className="hdb-module...">
+                        <div className="hdb-module...">
+                          <div>
+                          <div className="hdb-module...">
+                            <div>
+                            <div className="hdb-module...">
+                              <div
+                                className="hdb-module__lXLypG__heatCell"
+                                style={{
++                                 backgroundColor: "#39ff14"
++                                 opacity: 0.7184875583195771
+-                                 opacity: "0.546538"
+-                                 background-color: "rgb(57, 255, 20)"
+                                }}
+                              >
+                              <div
+                                className="hdb-module__lXLypG__heatCell"
+                                style={{
++                                 backgroundColor: "#ff2d95"
++                                 opacity: 0.7011306634282704
+-                                 opacity: "0.626498"
+-                                 background-color: "rgb(255, 45, 149)"
+                                }}
+                              >
+                              <div
+                                className="hdb-module__lXLypG__heatCell"
+                                style={{
++                                 backgroundColor: "#39ff14"
++                                 opacity: 0.6885941695077279
+-                                 opacity: "0.62809"
+-                                 background-color: "rgb(57, 255, 20)"
+                                }}
+                              >
+                              <div
+                                className="hdb-module__lXLypG__heatCell"
+                                style={{
++                                 backgroundColor: "#ffff00"
++                                 opacity: 0.5410830711001342
+-                                 opacity: "0.707108"
+-                                 background-color: "rgb(255, 255, 0)"
+                                }}
+                              >
+                              <div
+                                className="hdb-module__lXLypG__heatCell"
+                                style={{
++                                 backgroundColor: "#39ff14"
++                                 opacity: 0.7301326683414266
+-                                 opacity: "0.603294"
+-                                 background-color: "rgb(57, 255, 20)"
+                                }}
+                              >
+                              <div
+                                className="hdb-module__lXLypG__heatCell"
+                                style={{
++                                 backgroundColor: "#ff2d95"
++                                 opacity: 0.616230754087171
+-                                 opacity: "0.473213"
+-                                 background-color: "rgb(255, 45, 149)"
+                                }}
+                              >
+                              <div
+                                className="hdb-module__lXLypG__heatCell"
+                                style={{
++                                 backgroundColor: "#ffff00"
++                                 opacity: 0.7412031026124823
+-                                 opacity: "0.580613"
+-                                 background-color: "rgb(255, 255, 0)"
+                                }}
+                              >
+                              <div
+                                className="hdb-module__lXLypG__heatCell"
+                                style={{
++                                 backgroundColor: "#39ff14"
++                                 opacity: 0.5980203842584644
+-                                 opacity: "0.585309"
+-                                 background-color: "rgb(57, 255, 20)"
+                                }}
+                              >
+                              <div
+                                className="hdb-module__lXLypG__heatCell"
+                                style={{
++                                 backgroundColor: "#ffff00"
++                                 opacity: 0.6732910970895807
+-                                 opacity: "0.423985"
+-                                 background-color: "rgb(255, 45, 149)"
+                                }}
+                              >
+                              <div
+                                className="hdb-module__lXLypG__heatCell"
+                                style={{
++                                 backgroundColor: "#39ff14"
++                                 opacity: 0.7543146266023836
+-                                 opacity: "0.642466"
+-                                 background-color: "rgb(57, 255, 20)"
+                                }}
+                              >
+                              <div
+                                className="hdb-module__lXLypG__heatCell"
+                                style={{
++                                 backgroundColor: "#39ff14"
++                                 opacity: 0.6640299200780464
+-                                 opacity: "0.592019"
+-                                 background-color: "rgb(57, 255, 20)"
+                                }}
+                              >
+                              <div
+                                className="hdb-module__lXLypG__heatCell"
+                                style={{
++                                 backgroundColor: "#ff2d95"
++                                 opacity: 0.7591899317012583
+-                                 opacity: "0.778474"
+-                                 background-color: "rgb(255, 45, 149)"
+                                }}
+                              >
+                              <div
+                                className="hdb-module__lXLypG__heatCell"
+                                style={{
++                                 backgroundColor: "#ff2d95"
++                                 opacity: 0.5649117463170084
+-                                 opacity: "0.665469"
+-                                 background-color: "rgb(255, 45, 149)"
+                                }}
+                              >
+                              <div
+                                className="hdb-module__lXLypG__heatCell"
+                                style={{
++                                 backgroundColor: "#39ff14"
++                                 opacity: 0.45435430305522195
+-                                 opacity: "0.542861"
+-                                 background-color: "rgb(57, 255, 20)"
+                                }}
+                              >
+                              <div
+                                className="hdb-module__lXLypG__heatCell"
+                                style={{
++                                 backgroundColor: "#39ff14"
++                                 opacity: 0.5083423244347918
+-                                 opacity: "0.636722"
+-                                 background-color: "rgb(255, 45, 149)"
+                                }}
+                              >
+                              <div
+                                className="hdb-module__lXLypG__heatCell"
+                                style={{
++                                 backgroundColor: "#ff2d95"
++                                 opacity: 0.6176814994123416
+-                                 opacity: "0.751403"
+-                                 background-color: "rgb(57, 255, 20)"
+                                }}
+                              >
+                              <div
+                                className="hdb-module__lXLypG__heatCell"
+                                style={{
++                                 backgroundColor: "#39ff14"
++                                 opacity: 0.7235647810389241
+-                                 opacity: "0.36936"
+-                                 background-color: "rgb(57, 255, 20)"
+                                }}
+                              >
+                              <div
+                                className="hdb-module__lXLypG__heatCell"
+                                style={{
++                                 backgroundColor: "#39ff14"
++                                 opacity: 0.683900871668023
+-                                 opacity: "0.624628"
+-                                 background-color: "rgb(255, 255, 0)"
+                                }}
+                              >
+                              <div
+                                className="hdb-module__lXLypG__heatCell"
+                                style={{
++                                 backgroundColor: "#39ff14"
++                                 opacity: 0.576664438466385
+-                                 opacity: "0.309021"
+-                                 background-color: "rgb(57, 255, 20)"
+                                }}
+                              >
+                              <div
+                                className="hdb-module__lXLypG__heatCell"
+                                style={{
++                                 backgroundColor: "#39ff14"
++                                 opacity: 0.5348696570240762
+-                                 opacity: "0.487439"
+-                                 background-color: "rgb(57, 255, 20)"
+                                }}
+                              >
+                              <div
+                                className="hdb-module__lXLypG__heatCell"
+                                style={{
++                                 backgroundColor: "#39ff14"
++                                 opacity: 0.3016147933054907
+-                                 opacity: "0.684454"
+-                                 background-color: "rgb(57, 255, 20)"
+                                }}
+                              >
+                              <div
+                                className="hdb-module__lXLypG__heatCell"
+                                style={{
++                                 backgroundColor: "#39ff14"
++                                 opacity: 0.7528568155505626
+-                                 opacity: "0.424104"
+-                                 background-color: "rgb(57, 255, 20)"
+                                }}
+                              >
+                              <div
+                                className="hdb-module__lXLypG__heatCell"
+                                style={{
++                                 backgroundColor: "#39ff14"
++                                 opacity: 0.6446482629601915
+-                                 opacity: "0.542445"
+-                                 background-color: "rgb(57, 255, 20)"
+                                }}
+                              >
+                              <div
+                                className="hdb-module__lXLypG__heatCell"
+                                style={{
++                                 backgroundColor: "#ffff00"
++                                 opacity: 0.37108580613906134
+-                                 opacity: "0.313143"
+-                                 background-color: "rgb(57, 255, 20)"
+                                }}
+                              >
+                              <div
+                                className="hdb-module__lXLypG__heatCell"
+                                style={{
++                                 backgroundColor: "#ff2d95"
++                                 opacity: 0.6533206760746961
+-                                 opacity: "0.718113"
+-                                 background-color: "rgb(255, 255, 0)"
+                                }}
+                              >
+                              <div
+                                className="hdb-module__lXLypG__heatCell"
+                                style={{
++                                 backgroundColor: "#39ff14"
++                                 opacity: 0.7897379525770356
+-                                 opacity: "0.585783"
+-                                 background-color: "rgb(255, 45, 149)"
+                                }}
+                              >
+                              <div
+                                className="hdb-module__lXLypG__heatCell"
+                                style={{
++                                 backgroundColor: "#ffff00"
++                                 opacity: 0.7983039863895738
+-                                 opacity: "0.506492"
+-                                 background-color: "rgb(57, 255, 20)"
+                                }}
+                              >
+                              <div
+                                className="hdb-module__lXLypG__heatCell"
+                                style={{
++                                 backgroundColor: "#ffff00"
++                                 opacity: 0.7287179321133817
+-                                 opacity: "0.578419"
+-                                 background-color: "rgb(57, 255, 20)"
+                                }}
+                              >
+                              <div
+                                className="hdb-module__lXLypG__heatCell"
+                                style={{
++                                 backgroundColor: "#39ff14"
++                                 opacity: 0.43218415817668115
+-                                 opacity: "0.661023"
+-                                 background-color: "rgb(57, 255, 20)"
+                                }}
+                              >
+                              <div
+                                className="hdb-module__lXLypG__heatCell"
+                                style={{
++                                 backgroundColor: "#39ff14"
++                                 opacity: 0.32841611697897005
+-                                 opacity: "0.785958"
+-                                 background-color: "rgb(255, 45, 149)"
+                                }}
+                              >
+                              <div
+                                className="hdb-module__lXLypG__heatCell"
+                                style={{
++                                 backgroundColor: "#39ff14"
++                                 opacity: 0.49512745072744085
+-                                 opacity: "0.526317"
+-                                 background-color: "rgb(57, 255, 20)"
+                                }}
+                              >
+                              <div
+                                className="hdb-module__lXLypG__heatCell"
+                                style={{
++                                 backgroundColor: "#ffff00"
++                                 opacity: 0.4199041086825712
+-                                 opacity: "0.313964"
+-                                 background-color: "rgb(255, 255, 0)"
+                                }}
+                              >
+                              <div
+                                className="hdb-module__lXLypG__heatCell"
+                                style={{
++                                 backgroundColor: "#ff2d95"
++                                 opacity: 0.7757800170512568
+-                                 opacity: "0.780763"
+-                                 background-color: "rgb(57, 255, 20)"
+                                }}
+                              >
+                              <div
+                                className="hdb-module__lXLypG__heatCell"
+                                style={{
++                                 backgroundColor: "#39ff14"
++                                 opacity: 0.7774604612721498
+-                                 opacity: "0.321489"
+-                                 background-color: "rgb(255, 45, 149)"
+                                }}
+                              >
+                              <div
+                                className="hdb-module__lXLypG__heatCell"
+                                style={{
++                                 backgroundColor: "#ffff00"
++                                 opacity: 0.5780219268825015
+-                                 opacity: "0.690349"
+-                                 background-color: "rgb(57, 255, 20)"
+                                }}
+                              >
+                              <div
+                                className="hdb-module__lXLypG__heatCell"
+                                style={{
++                                 backgroundColor: "#39ff14"
++                                 opacity: 0.6268033877987884
+-                                 opacity: "0.606508"
+-                                 background-color: "rgb(57, 255, 20)"
+                                }}
+                              >
+                              <div
+                                className="hdb-module__lXLypG__heatCell"
+                                style={{
++                                 backgroundColor: "#39ff14"
++                                 opacity: 0.40650347203507164
+-                                 opacity: "0.522333"
+-                                 background-color: "rgb(255, 45, 149)"
+                                }}
+                              >
+                              <div
+                                className="hdb-module__lXLypG__heatCell"
+                                style={{
++                                 backgroundColor: "#39ff14"
++                                 opacity: 0.4003760784292635
+-                                 opacity: "0.64708"
+-                                 background-color: "rgb(57, 255, 20)"
+                                }}
+                              >
+                              <div
+                                className="hdb-module__lXLypG__heatCell"
+                                style={{
++                                 backgroundColor: "#ff2d95"
++                                 opacity: 0.6700866387206611
+-                                 opacity: "0.368049"
+-                                 background-color: "rgb(57, 255, 20)"
+                                }}
+                              >
+                              <div
+                                className="hdb-module__lXLypG__heatCell"
+                                style={{
++                                 backgroundColor: "#ffff00"
++                                 opacity: 0.30001929776984837
+-                                 opacity: "0.498102"
+-                                 background-color: "rgb(255, 255, 0)"
+                                }}
+                              >
+                          ...
+                      ...
+              ...
+            ...
+
+[06:41:16.063] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[06:41:16.172] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <InnerScrollAndFocusHandler segmentPath={[...]} focusAndScrollRef={{apply:false, ...}}>
+      <ErrorBoundary errorComponent={undefined} errorStyles={undefined} errorScripts={undefined}>
+        <LoadingBoundary name="/" loading={null}>
+          <HTTPAccessFallbackBoundary notFound={<SegmentViewNode>} forbidden={undefined} unauthorized={undefined}>
+            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<SegmentViewNode>} forbidden={undefined} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <InnerLayoutRouter url="/" tree={[...]} params={{}} cacheNode={{rsc:<Fragment>, ...}} ...>
+                    <SegmentViewNode type="page" pagePath="page.tsx">
+                      <SegmentTrieNode>
+                      <ClientPageRoot Component={function SplashScreen} serverProvidedParams={{...}}>
+                        <SplashScreen params={Promise} searchParams={Promise}>
+                          <div className="page-modul...">
+                            <div className="page-modul...">
+                              <div
+                                className="page-module___8aEwW__particle"
+                                style={{
++                                 left: "3.2717422328668255%"
+-                                 left: "34.7211%"
++                                 animationDelay: "1.2527121925439966s"
++                                 animationDuration: "5.705370131421813s"
+-                                 animation-delay: "2.32752s"
+-                                 animation-duration: "5.37384s"
+                                }}
+                              >
+                              <div
+                                className="page-module___8aEwW__particle"
+                                style={{
++                                 left: "49.72284051606223%"
+-                                 left: "37.5284%"
++                                 animationDelay: "4.412172168121248s"
++                                 animationDuration: "11.389377402306758s"
+-                                 animation-delay: "1.58522s"
+-                                 animation-duration: "8.49909s"
+                                }}
+                              >
+                              <div
+                                className="page-module___8aEwW__particle"
+                                style={{
++                                 left: "18.500750379975738%"
+-                                 left: "61.9076%"
++                                 animationDelay: "1.8492888342320912s"
++                                 animationDuration: "11.37141921982861s"
+-                                 animation-delay: "2.54549s"
+-                                 animation-duration: "9.7991s"
+                                }}
+                              >
+                              <div
+                                className="page-module___8aEwW__particle"
+                                style={{
++                                 left: "97.47214336864755%"
+-                                 left: "82.5431%"
++                                 animationDelay: "1.9827015677528204s"
++                                 animationDuration: "10.531857095650729s"
+-                                 animation-delay: "3.51918s"
+-                                 animation-duration: "10.986s"
+                                }}
+                              >
+                              <div
+                                className="page-module___8aEwW__particle"
+                                style={{
++                                 left: "80.36866363256807%"
+-                                 left: "14.2004%"
++                                 animationDelay: "2.611639959692047s"
++                                 animationDuration: "9.349881593705593s"
+-                                 animation-delay: "4.19524s"
+-                                 animation-duration: "14.3739s"
+                                }}
+                              >
+                              <div
+                                className="page-module___8aEwW__particle"
+                                style={{
++                                 left: "63.20368401383421%"
+-                                 left: "86.8311%"
++                                 animationDelay: "0.01826990040485088s"
++                                 animationDuration: "9.067674619216463s"
+-                                 animation-delay: "1.22147s"
+-                                 animation-duration: "14.0191s"
+                                }}
+                              >
+                              <div
+                                className="page-module___8aEwW__particle"
+                                style={{
++                                 left: "66.50538158398686%"
+-                                 left: "55.6084%"
++                                 animationDelay: "1.9858441683540295s"
++                                 animationDuration: "10.423298204449031s"
+-                                 animation-delay: "3.01704s"
+-                                 animation-duration: "11.5127s"
+                                }}
+                              >
+                              <div
+                                className="page-module___8aEwW__particle"
+                                style={{
++                                 left: "49.947459281086616%"
+-                                 left: "41.2221%"
++                                 animationDelay: "0.9569369395197469s"
++                                 animationDuration: "14.097512549597047s"
+-                                 animation-delay: "0.308981s"
+-                                 animation-duration: "7.0731s"
+                                }}
+                              >
+                              <div
+                                className="page-module___8aEwW__particle"
+                                style={{
++                                 left: "88.3956936335114%"
+-                                 left: "34.5816%"
++                                 animationDelay: "3.917493676391921s"
++                                 animationDuration: "14.58145126497961s"
+-                                 animation-delay: "3.71175s"
+-                                 animation-duration: "12.9954s"
+                                }}
+                              >
+                              <div
+                                className="page-module___8aEwW__particle"
+                                style={{
++                                 left: "66.23268818184425%"
+-                                 left: "96.1145%"
++                                 animationDelay: "3.055621834248163s"
++                                 animationDuration: "5.620229514829732s"
+-                                 animation-delay: "0.96775s"
+-                                 animation-duration: "13.9358s"
+                                }}
+                              >
+                              <div
+                                className="page-module___8aEwW__particle"
+                                style={{
++                                 left: "8.842081073259466%"
+-                                 left: "65.9094%"
++                                 animationDelay: "3.806210671635186s"
++                                 animationDuration: "10.300373229885055s"
+-                                 animation-delay: "4.10672s"
+-                                 animation-duration: "10.1067s"
+                                }}
+                              >
+                              <div
+                                className="page-module___8aEwW__particle"
+                                style={{
++                                 left: "99.65179834028598%"
+-                                 left: "21.923%"
++                                 animationDelay: "0.6594737465700373s"
++                                 animationDuration: "10.88839326239993s"
+-                                 animation-delay: "4.78959s"
+-                                 animation-duration: "12.5434s"
+                                }}
+                              >
+                              <div
+                                className="page-module___8aEwW__particle"
+                                style={{
++                                 left: "7.366557682339403%"
+-                                 left: "76.3965%"
++                                 animationDelay: "1.8282782146551697s"
++                                 animationDuration: "14.97794829395333s"
+-                                 animation-delay: "0.66902s"
+-                                 animation-duration: "11.8982s"
+                                }}
+                              >
+                              <div
+                                className="page-module___8aEwW__particle"
+                                style={{
++                                 left: "13.711983055504062%"
+-                                 left: "53.937%"
++                                 animationDelay: "0.09649327146341147s"
++                                 animationDuration: "14.445299907350552s"
+-                                 animation-delay: "2.27135s"
+-                                 animation-duration: "6.90643s"
+                                }}
+                              >
+                              <div
+                                className="page-module___8aEwW__particle"
+                                style={{
++                                 left: "69.9798855046596%"
+-                                 left: "6.77764%"
++                                 animationDelay: "1.9773603413271061s"
++                                 animationDuration: "8.635056666488676s"
+-                                 animation-delay: "3.10672s"
+-                                 animation-duration: "9.39455s"
+                                }}
+                              >
+                              <div
+                                className="page-module___8aEwW__particle"
+                                style={{
++                                 left: "31.893603950228677%"
+-                                 left: "72.1902%"
++                                 animationDelay: "1.7788388387350962s"
++                                 animationDuration: "9.73037892805833s"
+-                                 animation-delay: "0.22461s"
+-                                 animation-duration: "14.152s"
+                                }}
+                              >
+                              <div
+                                className="page-module___8aEwW__particle"
+                                style={{
++                                 left: "74.5579434945742%"
+-                                 left: "39.0052%"
++                                 animationDelay: "4.877105500655447s"
++                                 animationDuration: "13.282904119142664s"
+-                                 animation-delay: "0.324615s"
+-                                 animation-duration: "8.70541s"
+                                }}
+                              >
+                              <div
+                                className="page-module___8aEwW__particle"
+                                style={{
++                                 left: "37.12549743748023%"
+-                                 left: "66.744%"
++                                 animationDelay: "2.438195924823167s"
++                                 animationDuration: "13.715307697489791s"
+-                                 animation-delay: "3.8262s"
+-                                 animation-duration: "11.8907s"
+                                }}
+                              >
+                              <div
+                                className="page-module___8aEwW__particle"
+                                style={{
++                                 left: "55.49371456022926%"
+-                                 left: "93.0778%"
++                                 animationDelay: "3.174043268791382s"
++                                 animationDuration: "12.937158232715408s"
+-                                 animation-delay: "2.15445s"
+-                                 animation-duration: "6.51802s"
+                                }}
+                              >
+                              <div
+                                className="page-module___8aEwW__particle"
+                                style={{
++                                 left: "36.9038965457141%"
+-                                 left: "12.2507%"
++                                 animationDelay: "1.6110180485886834s"
++                                 animationDuration: "10.640639794960464s"
+-                                 animation-delay: "4.76579s"
+-                                 animation-duration: "7.62598s"
+                                }}
+                              >
+                            ...
+                    ...
+                  ...
+      ...
+
+[06:41:30.064] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[06:41:30.064] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <InnerScrollAndFocusHandler segmentPath={[...]} focusAndScrollRef={{apply:false, ...}}>
+      <ErrorBoundary errorComponent={undefined} errorStyles={undefined} errorScripts={undefined}>
+        <LoadingBoundary name="/" loading={null}>
+          <HTTPAccessFallbackBoundary notFound={<SegmentViewNode>} forbidden={undefined} unauthorized={undefined}>
+            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<SegmentViewNode>} forbidden={undefined} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <InnerLayoutRouter url="/" tree={[...]} params={{}} cacheNode={{rsc:<Fragment>, ...}} ...>
+                    <SegmentViewNode type="page" pagePath="page.tsx">
+                      <SegmentTrieNode>
+                      <ClientPageRoot Component={function SplashScreen} serverProvidedParams={{...}}>
+                        <SplashScreen params={Promise} searchParams={Promise}>
+                          <div className="page-modul...">
+                            <div className="page-modul...">
+                              <div
+                                className="page-module___8aEwW__particle"
+                                style={{
++                                 left: "35.91158183280406%"
+-                                 left: "63.3393%"
++                                 animationDelay: "1.1003673337920645s"
++                                 animationDuration: "13.605891167937834s"
+-                                 animation-delay: "2.18898s"
+-                                 animation-duration: "7.21222s"
+                                }}
+                              >
+                              <div
+                                className="page-module___8aEwW__particle"
+                                style={{
++                                 left: "96.49626105648782%"
+-                                 left: "78.2638%"
++                                 animationDelay: "4.2957728745546975s"
++                                 animationDuration: "8.056843740469425s"
+-                                 animation-delay: "2.73857s"
+-                                 animation-duration: "13.5333s"
+                                }}
+                              >
+                              <div
+                                className="page-module___8aEwW__particle"
+                                style={{
++                                 left: "88.22253292475396%"
+-                                 left: "97.8429%"
++                                 animationDelay: "0.48014266196178934s"
++                                 animationDuration: "8.265921672993986s"
+-                                 animation-delay: "3.53078s"
+-                                 animation-duration: "5.48642s"
+                                }}
+                              >
+                              <div
+                                className="page-module___8aEwW__particle"
+                                style={{
++                                 left: "30.364334895682276%"
+-                                 left: "12.9671%"
++                                 animationDelay: "2.7371970238611527s"
++                                 animationDuration: "6.323875042056245s"
+-                                 animation-delay: "1.68859s"
+-                                 animation-duration: "7.55409s"
+                                }}
+                              >
+                              <div
+                                className="page-module___8aEwW__particle"
+                                style={{
++                                 left: "82.33495350132709%"
+-                                 left: "90.6457%"
++                                 animationDelay: "1.0646627974521672s"
++                                 animationDuration: "5.043092842091466s"
+-                                 animation-delay: "2.43202s"
+-                                 animation-duration: "9.0605s"
+                                }}
+                              >
+                              <div
+                                className="page-module___8aEwW__particle"
+                                style={{
++                                 left: "8.714892055952673%"
+-                                 left: "2.47115%"
++                                 animationDelay: "0.9196968196522565s"
++                                 animationDuration: "8.45533773850948s"
+-                                 animation-delay: "3.22313s"
+-                                 animation-duration: "13.2272s"
+                                }}
+                              >
+                              <div
+                                className="page-module___8aEwW__particle"
+                                style={{
++                                 left: "18.125883909762052%"
+-                                 left: "93.0868%"
++                                 animationDelay: "3.89943045029874s"
++                                 animationDuration: "9.55550863114526s"
+-                                 animation-delay: "4.62711s"
+-                                 animation-duration: "14.2104s"
+                                }}
+                              >
+                              <div
+                                className="page-module___8aEwW__particle"
+                                style={{
++                                 left: "89.35168197017124%"
+-                                 left: "56.7542%"
++                                 animationDelay: "0.058344348504298926s"
++                                 animationDuration: "11.377529227221013s"
+-                                 animation-delay: "4.60182s"
+-                                 animation-duration: "12.9385s"
+                                }}
+                              >
+                              <div
+                                className="page-module___8aEwW__particle"
+                                style={{
++                                 left: "15.188247308634805%"
+-                                 left: "21.3812%"
++                                 animationDelay: "3.8316382503790387s"
++                                 animationDuration: "14.284578633393236s"
+-                                 animation-delay: "1.08191s"
+-                                 animation-duration: "9.6162s"
+                                }}
+                              >
+                              <div
+                                className="page-module___8aEwW__particle"
+                                style={{
++                                 left: "96.61804283221886%"
+-                                 left: "93.3959%"
++                                 animationDelay: "0.7732619285497788s"
++                                 animationDuration: "12.221779116082097s"
+-                                 animation-delay: "0.320723s"
+-                                 animation-duration: "8.62739s"
+                                }}
+                              >
+                              <div
+                                className="page-module___8aEwW__particle"
+                                style={{
++                                 left: "43.84436529552636%"
+-                                 left: "67.8111%"
++                                 animationDelay: "1.534087970708684s"
++                                 animationDuration: "9.914738253708826s"
+-                                 animation-delay: "2.39752s"
+-                                 animation-duration: "6.83332s"
+                                }}
+                              >
+                              <div
+                                className="page-module___8aEwW__particle"
+                                style={{
++                                 left: "21.87531047285217%"
+-                                 left: "43.5937%"
++                                 animationDelay: "2.4061830315940123s"
++                                 animationDuration: "5.77549376015677s"
+-                                 animation-delay: "4.1254s"
+-                                 animation-duration: "5.6137s"
+                                }}
+                              >
+                              <div
+                                className="page-module___8aEwW__particle"
+                                style={{
++                                 left: "41.29941469616133%"
+-                                 left: "8.44745%"
++                                 animationDelay: "2.898638206629596s"
++                                 animationDuration: "5.366934485286448s"
+-                                 animation-delay: "2.53009s"
+-                                 animation-duration: "13.7793s"
+                                }}
+                              >
+                              <div
+                                className="page-module___8aEwW__particle"
+                                style={{
++                                 left: "46.707486110929175%"
+-                                 left: "53.6014%"
++                                 animationDelay: "1.1884017339450232s"
++                                 animationDuration: "13.822904427493489s"
+-                                 animation-delay: "3.09184s"
+-                                 animation-duration: "7.51138s"
+                                }}
+                              >
+                              <div
+                                className="page-module___8aEwW__particle"
+                                style={{
++                                 left: "71.47896792617824%"
+-                                 left: "89.7262%"
++                                 animationDelay: "4.875764657063306s"
++                                 animationDuration: "12.162512503636115s"
+-                                 animation-delay: "1.02227s"
+-                                 animation-duration: "7.77306s"
+                                }}
+                              >
+                              <div
+                                className="page-module___8aEwW__particle"
+                                style={{
++                                 left: "78.26693684955966%"
+-                                 left: "77.7522%"
++                                 animationDelay: "4.968911710689181s"
++                                 animationDuration: "14.566232873200468s"
+-                                 animation-delay: "4.93153s"
+-                                 animation-duration: "11.8667s"
+                                }}
+                              >
+                              <div
+                                className="page-module___8aEwW__particle"
+                                style={{
++                                 left: "15.995873627035252%"
+-                                 left: "56.5452%"
++                                 animationDelay: "1.8331643980993118s"
++                                 animationDuration: "13.195819430849024s"
+-                                 animation-delay: "2.8767s"
+-                                 animation-duration: "9.04029s"
+                                }}
+                              >
+                              <div
+                                className="page-module___8aEwW__particle"
+                                style={{
++                                 left: "11.865873002458727%"
+-                                 left: "37.961%"
++                                 animationDelay: "0.5291687433052095s"
++                                 animationDuration: "5.87118038549051s"
+-                                 animation-delay: "3.36764s"
+-                                 animation-duration: "9.64336s"
+                                }}
+                              >
+                              <div
+                                className="page-module___8aEwW__particle"
+                                style={{
++                                 left: "51.70434159340843%"
+-                                 left: "79.1999%"
++                                 animationDelay: "2.1793085278956386s"
++                                 animationDuration: "7.841904922544551s"
+-                                 animation-delay: "2.13698s"
+-                                 animation-duration: "11.6226s"
+                                }}
+                              >
+                              <div
+                                className="page-module___8aEwW__particle"
+                                style={{
++                                 left: "56.09516691447448%"
+-                                 left: "88.7207%"
++                                 animationDelay: "1.6505393848241119s"
++                                 animationDuration: "12.33810350651589s"
+-                                 animation-delay: "4.79504s"
+-                                 animation-duration: "12.0504s"
+                                }}
+                              >
+                            ...
+                    ...
+                  ...
+      ...
+
+[08:36:47.647] Server  LOG     
+ ═══ NEW NEGOTIATION REQUEST ═══ 
+
+[08:36:47.648] Server  LOG     ────────────────────────────────────────────────────────────
+[08:36:47.648] Server  LOG     [NEGOTIATION] Starting negotiation for Unit 12-345
+[08:36:47.648] Server  LOG     ────────────────────────────────────────────────────────────
+[08:36:47.649] Server  LOG     [DB] Created negotiation: "neg_1769659583483_nwe8qiv1e"
+[08:36:47.649] Server  LOG     [NEGOTIATION] Negotiation ID: neg_1769659583483_nwe8qiv1e
+[08:36:47.649] Server  LOG     ────────────────────────────────────────────────────────────
+[08:36:47.649] Server  LOG     [RESIDENT AGENT] Generating proposal for Unit "12-345"
+[08:36:47.649] Server  LOG       Context: "{\n  \"unitId\": \"12-345\",\n  \"householdSize\": 4,\n  \"preferredTemp\": 22,\n  \"currentOutdoorTemp\": 32,\n  \"timeOfDay\": \"12:06 pm\",\n  \"occupancyPattern\": \"Family returns home around 18:00, children do homework, dinner at 19:00\"\n}"
+[08:36:51.525] Server  LOG     [RESIDENT AGENT] Raw response: "```json\n{\n  \"action\": \"propose\",\n  \"proposal\": {\n    \"temperature\": 22,\n    \"startTime\": \"16:00\",\n    \"endTime\": \"22:00\",\n    \"reason\": \"To cool the home before the family returns, ensuring a comfortable environment for homework and dinner.\"\n  },\n  \"reasoning\": \"By starting the cooling earlier at 16:00, we can maintain an efficient use of energy while ensuring the home is adequately cooled before family activities begin. This approach balances personal comfort with community responsibility, as it avoids running at full capacity during peak cooling hours later in the evening.\"\n}\n```"
+[08:36:51.525] Server  LOG     [RESIDENT AGENT] Proposing: "22°C from 16:00-22:00"
+[08:36:51.525] Server  LOG       Reasoning: "By starting the cooling earlier at 16:00, we can maintain an efficient use of energy while ensuring the home is adequately cooled before family activities begin. This approach balances personal comfort with community responsibility, as it avoids running at full capacity during peak cooling hours later in the evening."
+[08:36:51.525] Server  LOG     [DB] Created message: "resident_agent"
+[08:36:51.525] Server  LOG     ────────────────────────────────────────────────────────────
+[08:36:51.526] Server  LOG     [NEGOTIATION] Round 1/3
+[08:36:51.526] Server  LOG     [BLOCK AGENT] Evaluating proposal from Unit "12-345"
+[08:36:51.526] Server  LOG       Proposal: "22°C from 16:00-22:00"
+[08:36:51.526] Server  LOG       Block Status: "{\n  \"blockId\": \"BLK-123A\",\n  \"totalUnits\": 248,\n  \"activeUnits\": 129,\n  \"currentHeatIndex\": 61,\n  \"peakHours\": [\n    \"14:00\",\n    \"15:00\",\n    \"16:00\",\n    \"17:00\",\n    \"18:00\",\n    \"19:00\"\n  ],\n  \"avgBlockTemp\": 24.5,\n  \"outdoorTemp\": 32\n}"
+[08:36:56.195] Server  LOG     [BLOCK AGENT] Raw response: "```json\n{\n  \"decision\": \"counter\",\n  \"counterProposal\": {\n    \"temperature\": 24,\n    \"startTime\": \"18:00\",\n    \"endTime\": \"22:00\",\n    \"reason\": \"Cooling at a slightly higher temperature during peak hours reduces energy consumption and minimizes heat discharge.\"\n  },\n  \"reasoning\": \"The proposed temperature of 22°C during the hours of 16:00 to 22:00 overlaps with peak demand hours, contributing to increased heat discharge during that time. By suggesting a higher temperature of 24°C starting from 18:00, we can still ensure a comfortable environment for the family while reducing the load on the block's cooling systems, minimizing the impact on shared corridors and overall energy consumption.\",\n  \"impactAssessment\": {\n    \"heatContribution\": \"medium\",\n    \"peakLoadImpact\": \"significant\",\n    \"recommendedAction\": \"Consider adjusting the temperature and timings to optimize energy use while maintaining comfort.\"\n  }\n}\n```"
+[08:36:56.196] Server  LOG     [BLOCK AGENT] Decision: "COUNTER"
+[08:36:56.196] Server  LOG       Counter-proposal: "24°C from 18:00-22:00"
+[08:36:56.196] Server  LOG       Reasoning: "The proposed temperature of 22°C during the hours of 16:00 to 22:00 overlaps with peak demand hours, contributing to increased heat discharge during that time. By suggesting a higher temperature of 24°C starting from 18:00, we can still ensure a comfortable environment for the family while reducing the load on the block's cooling systems, minimizing the impact on shared corridors and overall energy consumption."
+[08:36:56.197] Server  LOG       Impact: {}
+[08:36:56.197] Server  LOG     [DB] Created message: "block_agent"
+[08:36:56.197] Server  LOG     [NEGOTIATION] Block Agent COUNTERED with: 24°C
+[08:36:56.197] Server  LOG     ────────────────────────────────────────────────────────────
+[08:36:56.197] Server  LOG     [RESIDENT AGENT] Reviewing counter-proposal from Block Agent
+[08:36:56.197] Server  LOG       Block suggests: "24°C from 18:00-22:00"
+[08:37:00.344] Server  LOG     [RESIDENT AGENT] Raw response: "```json\n{\n  \"action\": \"counter\",\n  \"proposal\": {\n    \"temperature\": 23,\n    \"startTime\": \"17:30\",\n    \"endTime\": \"22:00\",\n    \"reason\": \"To balance comfort with energy savings, allowing the home to cool down before peak usage while being mindful of energy consumption during peak hours.\"\n  },\n  \"reasoning\": \"Given the high outdoor temperature and the need for comfort, I propose a compromise at 23°C starting at 17:30. This allows for some cooling time before the family arrives and accommodates the Block Agent's concern for energy savings while remaining within a comfortable range.\"\n}\n```"
+[08:37:00.345] Server  LOG     [RESIDENT AGENT] Decision: "COUNTER"
+[08:37:00.345] Server  LOG       Counter: "23°C from 17:30-22:00"
+[08:37:00.345] Server  LOG       Reasoning: "Given the high outdoor temperature and the need for comfort, I propose a compromise at 23°C starting at 17:30. This allows for some cooling time before the family arrives and accommodates the Block Agent's concern for energy savings while remaining within a comfortable range."
+[08:37:00.346] Server  LOG     [DB] Created message: "resident_agent"
+[08:37:00.346] Server  LOG     [NEGOTIATION] Resident COUNTERED with: 23°C
+[08:37:00.346] Server  LOG     ────────────────────────────────────────────────────────────
+[08:37:00.346] Server  LOG     [NEGOTIATION] Round 2/3
+[08:37:00.347] Server  LOG     [BLOCK AGENT] Evaluating counter from Unit "12-345" "(Round" 2 ")"
+[08:37:05.210] Server  LOG     [BLOCK AGENT] Raw response: "```json\n{\n  \"decision\": \"counter\",\n  \"counterProposal\": {\n    \"temperature\": 24,\n    \"startTime\": \"17:30\",\n    \"endTime\": \"21:00\",\n    \"reason\": \"Slightly raising the temperature and shortening the time allows for energy efficiency while still achieving comfort before peak usage.\"\n  },\n  \"reasoning\": \"The resident's counter-proposal aligns with the goal of balancing comfort and energy efficiency, but maintaining the same temperature during peak hours can contribute to higher heat discharge across the block. By suggesting a slightly warmer temperature and an earlier cut-off time, we can enhance overall block sustainability while still ensuring comfort.\",\n  \"impactAssessment\": {\n    \"heatContribution\": \"medium\",\n    \"peakLoadImpact\": \"moderate\",\n    \"recommendedAction\": \"Consider implementing the 24°C suggestion for better collective energy efficiency.\"\n  }\n}\n```"
+[08:37:05.210] Server  LOG     [BLOCK AGENT] Decision: "COUNTER"
+[08:37:05.211] Server  LOG     [DB] Created message: "block_agent"
+[08:37:05.211] Server  LOG     [NEGOTIATION] Block Agent COUNTERED with: 24°C
+[08:37:05.212] Server  LOG     ────────────────────────────────────────────────────────────
+[08:37:05.212] Server  LOG     [RESIDENT AGENT] Reviewing counter-proposal from Block Agent
+[08:37:05.212] Server  LOG       Block suggests: "24°C from 17:30-21:00"
+[08:37:10.331] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[08:37:10.444] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <InnerScrollAndFocusHandler segmentPath={[...]} focusAndScrollRef={{apply:false, ...}}>
+      <ErrorBoundary errorComponent={undefined} errorStyles={undefined} errorScripts={undefined}>
+        <LoadingBoundary name="/" loading={null}>
+          <HTTPAccessFallbackBoundary notFound={<SegmentViewNode>} forbidden={undefined} unauthorized={undefined}>
+            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<SegmentViewNode>} forbidden={undefined} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <InnerLayoutRouter url="/" tree={[...]} params={{}} cacheNode={{rsc:<Fragment>, ...}} ...>
+                    <SegmentViewNode type="page" pagePath="page.tsx">
+                      <SegmentTrieNode>
+                      <ClientPageRoot Component={function SplashScreen} serverProvidedParams={{...}}>
+                        <SplashScreen params={Promise} searchParams={Promise}>
+                          <div className="page-modul...">
+                            <div className="page-modul...">
+                              <div
+                                className="page-module___8aEwW__particle"
+                                style={{
++                                 left: "6.555952562714551%"
+-                                 left: "49.9377%"
++                                 animationDelay: "0.9727760477995878s"
++                                 animationDuration: "10.125199119544089s"
+-                                 animation-delay: "2.91748s"
+-                                 animation-duration: "9.86502s"
+                                }}
+                              >
+                              <div
+                                className="page-module___8aEwW__particle"
+                                style={{
++                                 left: "21.462911555756982%"
+-                                 left: "74.6582%"
++                                 animationDelay: "1.1405769354400426s"
++                                 animationDuration: "7.279677646151032s"
+-                                 animation-delay: "0.0583677s"
+-                                 animation-duration: "14.1636s"
+                                }}
+                              >
+                              <div
+                                className="page-module___8aEwW__particle"
+                                style={{
++                                 left: "88.5215984025071%"
+-                                 left: "96.442%"
++                                 animationDelay: "1.2801030867140195s"
++                                 animationDuration: "12.124930720068594s"
+-                                 animation-delay: "2.59073s"
+-                                 animation-duration: "14.8974s"
+                                }}
+                              >
+                              <div
+                                className="page-module___8aEwW__particle"
+                                style={{
++                                 left: "22.975168248758383%"
+-                                 left: "23.4326%"
++                                 animationDelay: "4.504815586998959s"
++                                 animationDuration: "12.01215796154511s"
+-                                 animation-delay: "3.53763s"
+-                                 animation-duration: "6.96982s"
+                                }}
+                              >
+                              <div
+                                className="page-module___8aEwW__particle"
+                                style={{
++                                 left: "76.05288734581251%"
+-                                 left: "60.9986%"
++                                 animationDelay: "2.7285230032029046s"
++                                 animationDuration: "8.7380601032176s"
+-                                 animation-delay: "1.30396s"
+-                                 animation-duration: "12.1056s"
+                                }}
+                              >
+                              <div
+                                className="page-module___8aEwW__particle"
+                                style={{
++                                 left: "57.42048355713738%"
+-                                 left: "5.27133%"
++                                 animationDelay: "1.57289720554186s"
++                                 animationDuration: "14.115389786560314s"
+-                                 animation-delay: "4.96627s"
+-                                 animation-duration: "7.67501s"
+                                }}
+                              >
+                              <div
+                                className="page-module___8aEwW__particle"
+                                style={{
++                                 left: "68.84288834087732%"
+-                                 left: "1.2712%"
++                                 animationDelay: "4.071632346766655s"
++                                 animationDuration: "13.82375062283629s"
+-                                 animation-delay: "3.9887s"
+-                                 animation-duration: "5.50198s"
+                                }}
+                              >
+                              <div
+                                className="page-module___8aEwW__particle"
+                                style={{
++                                 left: "57.559557389826665%"
+-                                 left: "42.7127%"
++                                 animationDelay: "1.6665209269033965s"
++                                 animationDuration: "5.784321809716583s"
+-                                 animation-delay: "1.45159s"
+-                                 animation-duration: "9.5581s"
+                                }}
+                              >
+                              <div
+                                className="page-module___8aEwW__particle"
+                                style={{
++                                 left: "19.324617844536128%"
+-                                 left: "65.8436%"
++                                 animationDelay: "1.6406747359360847s"
++                                 animationDuration: "9.479793421174243s"
+-                                 animation-delay: "2.10256s"
+-                                 animation-duration: "14.8427s"
+                                }}
+                              >
+                              <div
+                                className="page-module___8aEwW__particle"
+                                style={{
++                                 left: "59.212955144857126%"
+-                                 left: "71.7159%"
++                                 animationDelay: "1.4452950208645872s"
++                                 animationDuration: "12.174355284146102s"
+-                                 animation-delay: "4.79939s"
+-                                 animation-duration: "8.09063s"
+                                }}
+                              >
+                              <div
+                                className="page-module___8aEwW__particle"
+                                style={{
++                                 left: "24.26448763791956%"
+-                                 left: "51.5186%"
++                                 animationDelay: "2.0271962473518936s"
++                                 animationDuration: "12.326524119563615s"
+-                                 animation-delay: "3.13271s"
+-                                 animation-duration: "5.09479s"
+                                }}
+                              >
+                              <div
+                                className="page-module___8aEwW__particle"
+                                style={{
++                                 left: "48.86879480310379%"
+-                                 left: "58.898%"
++                                 animationDelay: "0.9709656032235697s"
++                                 animationDuration: "9.223399314548338s"
+-                                 animation-delay: "3.66045s"
+-                                 animation-duration: "7.29036s"
+                                }}
+                              >
+                              <div
+                                className="page-module___8aEwW__particle"
+                                style={{
++                                 left: "15.426283834166254%"
+-                                 left: "73.7464%"
++                                 animationDelay: "2.675269105482717s"
++                                 animationDuration: "11.563142573012087s"
+-                                 animation-delay: "3.78418s"
+-                                 animation-duration: "14.7412s"
+                                }}
+                              >
+                              <div
+                                className="page-module___8aEwW__particle"
+                                style={{
++                                 left: "20.7239280427174%"
+-                                 left: "86.1786%"
++                                 animationDelay: "4.795562272208772s"
++                                 animationDuration: "11.283717604116976s"
+-                                 animation-delay: "2.01917s"
+-                                 animation-duration: "11.3759s"
+                                }}
+                              >
+                              <div
+                                className="page-module___8aEwW__particle"
+                                style={{
++                                 left: "96.80431645922157%"
+-                                 left: "34.2451%"
++                                 animationDelay: "2.729530848573614s"
++                                 animationDuration: "14.734393978183238s"
+-                                 animation-delay: "1.56071s"
+-                                 animation-duration: "8.61972s"
+                                }}
+                              >
+                              <div
+                                className="page-module___8aEwW__particle"
+                                style={{
++                                 left: "9.882753144331335%"
+-                                 left: "81.756%"
++                                 animationDelay: "4.13550627362417s"
++                                 animationDuration: "8.926285125544569s"
+-                                 animation-delay: "2.1639s"
+-                                 animation-duration: "14.01s"
+                                }}
+                              >
+                              <div
+                                className="page-module___8aEwW__particle"
+                                style={{
++                                 left: "10.244675587101348%"
+-                                 left: "45.5686%"
++                                 animationDelay: "4.426510101417534s"
++                                 animationDuration: "12.259656494757861s"
+-                                 animation-delay: "2.91066s"
+-                                 animation-duration: "9.00731s"
+                                }}
+                              >
+                              <div
+                                className="page-module___8aEwW__particle"
+                                style={{
++                                 left: "22.411458294023788%"
+-                                 left: "56.9109%"
++                                 animationDelay: "4.788775717972871s"
++                                 animationDuration: "10.758949961116185s"
+-                                 animation-delay: "4.73423s"
+-                                 animation-duration: "14.3513s"
+                                }}
+                              >
+                              <div
+                                className="page-module___8aEwW__particle"
+                                style={{
++                                 left: "25.145961628948832%"
+-                                 left: "0.554503%"
++                                 animationDelay: "1.5108964555248954s"
++                                 animationDuration: "10.915841583450772s"
+-                                 animation-delay: "2.95377s"
+-                                 animation-duration: "11.203s"
+                                }}
+                              >
+                              <div
+                                className="page-module___8aEwW__particle"
+                                style={{
++                                 left: "87.11781525861765%"
+-                                 left: "17.934%"
++                                 animationDelay: "4.805514063895881s"
++                                 animationDuration: "12.129804638874116s"
+-                                 animation-delay: "1.94713s"
+-                                 animation-duration: "11.8179s"
+                                }}
+                              >
+                            ...
+                    ...
+                  ...
+      ...
+
+[08:37:10.527] Server  LOG     [RESIDENT AGENT] Raw response: "```json\n{\n  \"action\": \"counter\",\n  \"proposal\": {\n    \"temperature\": 23°C,\n    \"startTime\": \"17:30\",\n    \"endTime\": \"21:30\",\n    \"reason\": \"To ensure adequate cooling before peak hours while also being more energy-efficient by shortening the cooling period slightly.\"\n  },\n  \"reasoning\": \"While the Block Agent's counter-proposal raises the temperature to 24°C, which is above our preferred comfort level of 22°C, I believe a middle-ground of 23°C is a reasonable compromise. Extending the cooling period by an hour until 21:30 allows for more comfort for our household of four during the early evening, especially considering the current outdoor temperature of 32°C. This proposal still addresses energy efficiency concerns by not extending beyond what is necessary for comfort.\"\n}\n```"
+[08:37:10.527] Server  LOG     [RESIDENT AGENT] Failed to parse response, accepting counter-proposal
+[08:37:10.528] Server  LOG     [DB] Created message: "resident_agent"
+[08:37:10.528] Server  LOG     [SUCCESS] Resident ACCEPTED Block Agent's counter-proposal
+[08:37:10.528] Server  LOG     [DB] Updated negotiation: "neg_1769659583483_nwe8qiv1e" {}
+[08:37:10.528] Server  LOG     ────────────────────────────────────────────────────────────
+[08:37:10.529] Server  LOG     [NEGOTIATION] Negotiation COMPLETED: ACCEPTED after 2 round(s)
+[08:37:10.529] Server  LOG     ────────────────────────────────────────────────────────────
+[08:39:41.275] Server  LOG     ✓ Compiled in 39ms
+[08:39:54.199] Server  LOG     ✓ Compiled in 14ms
+[08:40:11.521] Server  LOG     ✓ Compiled in 24ms
+[08:40:50.787] Server  LOG     ✓ Compiled in 7ms
+[08:46:25.996] Server  LOG     ✓ Compiled in 10ms
+[08:46:38.785] Server  LOG     ✓ Compiled in 9ms
+[08:46:46.372] Server  LOG     
+ ═══ NEW NEGOTIATION REQUEST ═══ 
+
+[08:46:46.372] Server  LOG     ────────────────────────────────────────────────────────────
+[08:46:46.372] Server  LOG     [NEGOTIATION] Starting negotiation for Unit 12-345
+[08:46:46.372] Server  LOG     ────────────────────────────────────────────────────────────
+[08:46:46.372] Server  LOG     [DB] Created negotiation: "neg_1769660182204_6nwqke9xx"
+[08:46:46.373] Server  LOG     [NEGOTIATION] Negotiation ID: neg_1769660182204_6nwqke9xx
+[08:46:46.373] Server  LOG     ────────────────────────────────────────────────────────────
+[08:46:46.373] Server  LOG     [RESIDENT AGENT] Generating proposal for Unit "12-345"
+[08:46:46.373] Server  LOG       Context: "{\n  \"unitId\": \"12-345\",\n  \"householdSize\": 4,\n  \"preferredTemp\": 24,\n  \"currentOutdoorTemp\": 32,\n  \"timeOfDay\": \"12:16 pm\",\n  \"occupancyPattern\": \"Family returns home around 18:00, children do homework, dinner at 19:00\"\n}"
+[08:46:49.999] Server  LOG     [RESIDENT AGENT] Raw response: "```json\n{\n  \"action\": \"propose\",\n  \"proposal\": {\n    \"temperature\": 24,\n    \"startTime\": \"16:00\",\n    \"endTime\": \"22:00\",\n    \"reason\": \"To pre-cool the home before the family arrives, ensuring comfort during homework and dinner time.\"\n  },\n  \"reasoning\": \"Given the current outdoor temperature of 32°C and the family's schedule, starting the cooling at 16:00 allows the home to reach a comfortable 24°C before the family's return at 18:00. This approach not only prioritizes the family's comfort but also utilizes energy during off-peak hours, enhancing overall efficiency.\"\n}\n```"
+[08:46:49.999] Server  LOG     [RESIDENT AGENT] Proposing: "24°C from 16:00-22:00"
+[08:46:50.000] Server  LOG       Reasoning: "Given the current outdoor temperature of 32°C and the family's schedule, starting the cooling at 16:00 allows the home to reach a comfortable 24°C before the family's return at 18:00. This approach not only prioritizes the family's comfort but also utilizes energy during off-peak hours, enhancing overall efficiency."
+[08:46:50.000] Server  LOG     [DB] Created message: "resident_agent"
+[08:46:50.000] Server  LOG     ────────────────────────────────────────────────────────────
+[08:46:50.000] Server  LOG     [NEGOTIATION] Round 1/3
+[08:46:50.000] Server  LOG     [BLOCK AGENT] Evaluating proposal from Unit "12-345"
+[08:46:50.000] Server  LOG       Proposal: "24°C from 16:00-22:00"
+[08:46:50.001] Server  LOG       Block Status: "{\n  \"blockId\": \"BLK-123A\",\n  \"totalUnits\": 248,\n  \"activeUnits\": 128,\n  \"currentHeatIndex\": 49,\n  \"peakHours\": [\n    \"14:00\",\n    \"15:00\",\n    \"16:00\",\n    \"17:00\",\n    \"18:00\",\n    \"19:00\"\n  ],\n  \"avgBlockTemp\": 24.5,\n  \"outdoorTemp\": 32\n}"
+[08:46:54.004] Server  LOG     [BLOCK AGENT] Raw response: "```json\n{\n  \"decision\": \"counter\",\n  \"counterProposal\": {\n    \"temperature\": 25,\n    \"startTime\": \"17:00\",\n    \"endTime\": \"22:00\",\n    \"reason\": \"Slightly higher temperature for a shorter duration during the peak time, reducing heat discharge while still maintaining comfort.\"\n  },\n  \"reasoning\": \"The proposed temperature of 24°C during the time range of 16:00 to 22:00 would coincide with peak demand hours, which poses a risk of significant heat contribution to the shared spaces. Reducing the temperature to 25°C and starting the cooling at 17:00 allows for comfort during homework and dinner while decreasing the impact on overall block energy efficiency and heat discharge.\",\n  \"impactAssessment\": {\n    \"heatContribution\": \"medium\",\n    \"peakLoadImpact\": \"moderate\",\n    \"recommendedAction\": \"Consider the adjusted cooling temperature and time to minimize impact during peak hours.\"\n  }\n}\n```"
+[08:46:54.004] Server  LOG     [BLOCK AGENT] Decision: "COUNTER"
+[08:46:54.004] Server  LOG       Counter-proposal: "25°C from 17:00-22:00"
+[08:46:54.004] Server  LOG       Reasoning: "The proposed temperature of 24°C during the time range of 16:00 to 22:00 would coincide with peak demand hours, which poses a risk of significant heat contribution to the shared spaces. Reducing the temperature to 25°C and starting the cooling at 17:00 allows for comfort during homework and dinner while decreasing the impact on overall block energy efficiency and heat discharge."
+[08:46:54.004] Server  LOG       Impact: {}
+[08:46:54.005] Server  LOG     [DB] Created message: "block_agent"
+[08:46:54.005] Server  LOG     [NEGOTIATION] Block Agent COUNTERED with: 25°C
+[08:46:54.005] Server  LOG     ────────────────────────────────────────────────────────────
+[08:46:54.005] Server  LOG     [RESIDENT AGENT] Reviewing counter-proposal from Block Agent
+[08:46:54.005] Server  LOG       Block suggests: "25°C from 17:00-22:00"
+[08:46:58.300] Server  LOG     [RESIDENT AGENT] Raw response: "```json\n{\n  \"action\": \"counter\",\n  \"proposal\": {\n    \"temperature\": 24,\n    \"startTime\": \"16:30\",\n    \"endTime\": \"22:00\",\n    \"reason\": \"To balance the need for comfort in the home before family activities while slightly adjusting the start time to accommodate the Block Agent's concern for heat discharge.\"\n  },\n  \"reasoning\": \"I acknowledge the Block Agent's concern for reducing heat discharge and agree that a small adjustment in timing can be beneficial. By starting cooling at 16:30 instead of 16:00, we still ensure that the house is comfortable as the household arrives, particularly for homework and dinner time, while addressing the peak load issue.\"\n}\n```"
+[08:46:58.300] Server  LOG     [RESIDENT AGENT] Decision: "COUNTER"
+[08:46:58.300] Server  LOG       Counter: "24°C from 16:30-22:00"
+[08:46:58.300] Server  LOG       Reasoning: "I acknowledge the Block Agent's concern for reducing heat discharge and agree that a small adjustment in timing can be beneficial. By starting cooling at 16:30 instead of 16:00, we still ensure that the house is comfortable as the household arrives, particularly for homework and dinner time, while addressing the peak load issue."
+[08:46:58.300] Server  LOG     [DB] Created message: "resident_agent"
+[08:46:58.301] Server  LOG     [NEGOTIATION] Resident COUNTERED with: 24°C
+[08:46:58.301] Server  LOG     ────────────────────────────────────────────────────────────
+[08:46:58.301] Server  LOG     [NEGOTIATION] Round 2/3
+[08:46:58.301] Server  LOG     [BLOCK AGENT] Evaluating counter from Unit "12-345" "(Round" 2 ")"
+[08:47:04.032] Server  LOG     [BLOCK AGENT] Raw response: "```json\n{\n  \"decision\": \"counter\",\n  \"counterProposal\": {\n    \"temperature\": 25,\n    \"startTime\": \"17:00\",\n    \"endTime\": \"22:00\",\n    \"reason\": \"Raising the temperature to 25°C and adjusting the start time to 17:00 helps reduce heat discharge during the critical late afternoon peak hours while still providing comfort in the evening.\"\n  },\n  \"reasoning\": \"The block's current heat index is high at 49/100, and with 128 active AC units, the cumulative heat discharge is a concern. By starting the cooling later and slightly raising the temperature, we can help mitigate heat buildup in shared spaces, especially during peak hours. This balances individual comfort and block sustainability goals.\",\n  \"impactAssessment\": {\n    \"heatContribution\": \"medium\",\n    \"peakLoadImpact\": \"moderate\",\n    \"recommendedAction\": \"Consider a gradual cooling approach to optimize energy use.\"\n  }\n}\n```"
+[08:47:04.032] Server  LOG     [BLOCK AGENT] Decision: "COUNTER"
+[08:47:04.032] Server  LOG     [DB] Created message: "block_agent"
+[08:47:04.033] Server  LOG     [NEGOTIATION] Block Agent COUNTERED with: 25°C
+[08:47:04.033] Server  LOG     ────────────────────────────────────────────────────────────
+[08:47:04.033] Server  LOG     [RESIDENT AGENT] Reviewing counter-proposal from Block Agent
+[08:47:04.033] Server  LOG       Block suggests: "25°C from 17:00-22:00"
+[08:47:07.352] Server  LOG     [RESIDENT AGENT] Raw response: "```json\n{\n  \"action\": \"counter\",\n  \"proposal\": {\n    \"temperature\": 24,\n    \"startTime\": \"16:30\",\n    \"endTime\": \"22:00\",\n    \"reason\": \"Maintains household comfort while still being mindful of heat discharge.\"\n  },\n  \"reasoning\": \"The counter-proposal of 25°C may provide a slight benefit in terms of energy efficiency, but it compromises the comfort level preferred by the household. Returning to the original time of 16:30 allows for cooling before peak household activities in the evening while still being slightly more sustainable than the original proposal, thus addressing the Block Agent’s concerns.\"\n}\n```"
+[08:47:07.352] Server  LOG     [RESIDENT AGENT] Decision: "COUNTER"
+[08:47:07.352] Server  LOG       Counter: "24°C from 16:30-22:00"
+[08:47:07.352] Server  LOG       Reasoning: "The counter-proposal of 25°C may provide a slight benefit in terms of energy efficiency, but it compromises the comfort level preferred by the household. Returning to the original time of 16:30 allows for cooling before peak household activities in the evening while still being slightly more sustainable than the original proposal, thus addressing the Block Agent’s concerns."
+[08:47:07.353] Server  LOG     [DB] Created message: "resident_agent"
+[08:47:07.353] Server  LOG     [NEGOTIATION] Resident COUNTERED with: 24°C
+[08:47:07.353] Server  LOG     ────────────────────────────────────────────────────────────
+[08:47:07.353] Server  LOG     [NEGOTIATION] Round 3/3
+[08:47:07.354] Server  LOG     [BLOCK AGENT] Evaluating counter from Unit "12-345" "(Round" 3 ")"
+[08:47:10.067] Server  LOG     [BLOCK AGENT] Raw response: "```json\n{\n  \"decision\": \"approve\",\n  \"counterProposal\": null,\n  \"reasoning\": \"The resident's counter-proposal maintains the previously suggested temperature and time range, which aligns with both individual comfort and block sustainability goals. Given the current moderate heat index and the management of active AC units, the impact from this proposal is manageable.\",\n  \"impactAssessment\": {\n    \"heatContribution\": \"medium\",\n    \"peakLoadImpact\": \"minimal\",\n    \"recommendedAction\": \"Ensure timely adjustments are made to AC usage before peak hours.\"\n  }\n}\n```"
+[08:47:10.067] Server  LOG     [BLOCK AGENT] Decision: "APPROVE"
+[08:47:10.068] Server  LOG     [DB] Created message: "block_agent"
+[08:47:10.068] Server  LOG     [SUCCESS] Proposal APPROVED by Block Agent in round 3
+[08:47:10.068] Server  LOG     [DB] Updated negotiation: "neg_1769660182204_6nwqke9xx" {}
+[08:47:10.068] Server  LOG     ────────────────────────────────────────────────────────────
+[08:47:10.068] Server  LOG     [NEGOTIATION] Negotiation COMPLETED: APPROVED after 3 round(s)
+[08:47:10.068] Server  LOG     ────────────────────────────────────────────────────────────
+[11:13:08.808] Server  LOG       Reload env: .env.local

@@ -1,0 +1,439 @@
+.container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: #0a0a0a;
+  position: relative;
+  overflow: hidden;
+  padding: 20px;
+}
+
+/* Background effects */
+.bgGrid {
+  position: absolute;
+  inset: 0;
+  background-image: 
+    linear-gradient(rgba(0, 245, 255, 0.03) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(0, 245, 255, 0.03) 1px, transparent 1px);
+  background-size: 50px 50px;
+}
+
+.glowOrb1 {
+  position: absolute;
+  top: 20%;
+  left: 10%;
+  width: 300px;
+  height: 300px;
+  background: radial-gradient(circle, rgba(255, 45, 149, 0.15) 0%, transparent 70%);
+  filter: blur(60px);
+  animation: float1 10s ease-in-out infinite;
+}
+
+.glowOrb2 {
+  position: absolute;
+  bottom: 20%;
+  right: 10%;
+  width: 400px;
+  height: 400px;
+  background: radial-gradient(circle, rgba(0, 245, 255, 0.15) 0%, transparent 70%);
+  filter: blur(60px);
+  animation: float2 12s ease-in-out infinite;
+}
+
+@keyframes float1 {
+  0%, 100% { transform: translate(0, 0); }
+  50% { transform: translate(30px, -30px); }
+}
+
+@keyframes float2 {
+  0%, 100% { transform: translate(0, 0); }
+  50% { transform: translate(-30px, 30px); }
+}
+
+/* Back button */
+.backBtn {
+  position: absolute;
+  top: 30px;
+  left: 30px;
+  background: transparent;
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  color: rgba(255, 255, 255, 0.6);
+  font-family: var(--font-pixel);
+  font-size: 10px;
+  padding: 10px 20px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  transition: all 0.2s ease;
+  z-index: 10;
+}
+
+.backBtn:hover {
+  border-color: var(--neon-cyan);
+  color: var(--neon-cyan);
+}
+
+/* Main */
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+  z-index: 10;
+  width: 100%;
+  max-width: 900px;
+}
+
+/* Header */
+.header {
+  text-align: center;
+}
+
+.logoSmall {
+  font-family: var(--font-pixel);
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.logoChill {
+  color: var(--neon-cyan);
+  text-shadow: 0 0 10px var(--neon-cyan);
+}
+
+.logoPill {
+  color: var(--neon-pink);
+  text-shadow: 0 0 10px var(--neon-pink);
+}
+
+.title {
+  font-family: var(--font-pixel);
+  font-size: clamp(16px, 3vw, 24px);
+  color: white;
+  letter-spacing: 4px;
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  font-family: var(--font-retro);
+  font-size: 20px;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+/* Role Selection */
+.roleSelection {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+  width: 100%;
+}
+
+.roleCard {
+  background: rgba(20, 20, 20, 0.8);
+  border: 3px solid rgba(0, 245, 255, 0.3);
+  padding: 30px;
+  text-align: left;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.roleCard:hover {
+  border-color: var(--neon-cyan);
+  box-shadow: 0 0 30px rgba(0, 245, 255, 0.2);
+  transform: translateY(-5px);
+}
+
+.roleCard.selected {
+  border-color: var(--neon-cyan);
+  box-shadow: 
+    0 0 30px rgba(0, 245, 255, 0.3),
+    inset 0 0 30px rgba(0, 245, 255, 0.05);
+}
+
+.residentCard {
+  border-color: rgba(255, 45, 149, 0.3);
+}
+
+.residentCard:hover {
+  border-color: var(--neon-pink);
+  box-shadow: 0 0 30px rgba(255, 45, 149, 0.2);
+}
+
+.residentCard.selected {
+  border-color: var(--neon-pink);
+  box-shadow: 
+    0 0 30px rgba(255, 45, 149, 0.3),
+    inset 0 0 30px rgba(255, 45, 149, 0.05);
+}
+
+.roleIcon {
+  font-size: 48px;
+}
+
+.roleTitle {
+  font-family: var(--font-pixel);
+  font-size: 14px;
+  color: white;
+  letter-spacing: 2px;
+}
+
+.roleDescription {
+  font-family: var(--font-retro);
+  font-size: 18px;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.roleFeatures {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-top: 10px;
+}
+
+.featureItem {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-family: var(--font-retro);
+  font-size: 16px;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.featureCheck {
+  color: var(--neon-green);
+  font-size: 12px;
+}
+
+.roleTag {
+  font-family: var(--font-pixel);
+  font-size: 8px;
+  color: rgba(255, 255, 255, 0.3);
+  letter-spacing: 2px;
+  padding-top: 15px;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  margin-top: auto;
+}
+
+.selectedIndicator {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  font-family: var(--font-pixel);
+  font-size: 10px;
+  color: var(--neon-green);
+  text-shadow: 0 0 10px var(--neon-green);
+  animation: pulse 1s ease-in-out infinite;
+}
+
+@keyframes pulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.5; }
+}
+
+/* Login Form */
+.loginForm {
+  background: rgba(20, 20, 20, 0.9);
+  border: 3px solid rgba(255, 255, 255, 0.1);
+  padding: 30px;
+  width: 100%;
+  max-width: 450px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  animation: slideUp 0.5s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.formHeader {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding-bottom: 15px;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.1);
+}
+
+.formIcon {
+  font-size: 24px;
+}
+
+.formTitle {
+  font-family: var(--font-pixel);
+  font-size: 12px;
+  color: white;
+  letter-spacing: 2px;
+}
+
+.inputGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.inputLabel {
+  font-family: var(--font-pixel);
+  font-size: 8px;
+  color: rgba(255, 255, 255, 0.5);
+  letter-spacing: 2px;
+}
+
+.input {
+  font-family: var(--font-retro);
+  font-size: 18px;
+  padding: 12px 15px;
+  background: rgba(0, 0, 0, 0.5);
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  color: white;
+  outline: none;
+  transition: all 0.2s ease;
+}
+
+.input:focus {
+  border-color: var(--neon-cyan);
+  box-shadow: 0 0 10px rgba(0, 245, 255, 0.2);
+}
+
+.input::placeholder {
+  color: rgba(255, 255, 255, 0.3);
+}
+
+.input option {
+  background: #1a1a1a;
+  color: white;
+}
+
+.submitBtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  padding: 18px 30px;
+  background: transparent;
+  border: 3px solid;
+  font-family: var(--font-pixel);
+  font-size: 12px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  margin-top: 10px;
+}
+
+.hdbBtn {
+  border-color: var(--neon-cyan);
+  color: var(--neon-cyan);
+}
+
+.hdbBtn:hover:not(:disabled) {
+  background: rgba(0, 245, 255, 0.1);
+  box-shadow: 0 0 20px rgba(0, 245, 255, 0.3);
+}
+
+.residentBtn {
+  border-color: var(--neon-pink);
+  color: var(--neon-pink);
+}
+
+.residentBtn:hover:not(:disabled) {
+  background: rgba(255, 45, 149, 0.1);
+  box-shadow: 0 0 20px rgba(255, 45, 149, 0.3);
+}
+
+.submitBtn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.btnArrow {
+  font-size: 10px;
+}
+
+.loadingText {
+  animation: blink 0.5s ease-in-out infinite;
+}
+
+@keyframes blink {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.3; }
+}
+
+.formFooter {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  padding-top: 15px;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.footerLink {
+  font-family: var(--font-retro);
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.4);
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.footerLink:hover {
+  color: var(--neon-cyan);
+}
+
+.footerDivider {
+  color: rgba(255, 255, 255, 0.2);
+}
+
+/* Demo notice */
+.demoNotice {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-family: var(--font-retro);
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.3);
+  padding: 10px 20px;
+  background: rgba(255, 255, 0, 0.05);
+  border: 1px dashed rgba(255, 255, 0, 0.2);
+}
+
+.demoIcon {
+  font-size: 16px;
+}
+
+/* Scanlines */
+.scanlines {
+  position: absolute;
+  inset: 0;
+  background: repeating-linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 0.1) 0px,
+    rgba(0, 0, 0, 0.1) 1px,
+    transparent 1px,
+    transparent 2px
+  );
+  pointer-events: none;
+  z-index: 100;
+}
+
+/* Responsive */
+@media (max-width: 700px) {
+  .roleSelection {
+    grid-template-columns: 1fr;
+  }
+  
+  .backBtn {
+    top: 15px;
+    left: 15px;
+  }
+}
